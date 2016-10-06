@@ -1,0 +1,192 @@
+{
+    "purpose": {
+        "id": 1001,
+        "name": "Получение сведений из Государственного кадастра недвижимости (ГКН)",
+        "subName": "Предоставление копии документа, на основании которого сведения об объекте недвижимости внесены в Государственный кадастр недвижимости",
+        "requestType": 558101010000,
+        "path": "gkn",
+        "service": {}
+    },
+    "fullName": "Предоставление копии документа, на основании которого сведения об объекте недвижимости внесены в Государственный кадастр недвижимости",
+    "document": {
+        "documentType": {
+            "uid": "558203000000",
+            "parentUid": "558200000000",
+            "name": "Межевой план"
+        },
+        "documentNumber": "1",
+        "documentIssueDate": "01.10.2016"
+    },
+    "objects": [{
+        "id": 0,
+        "objectType": {
+            "id": "002001001000",
+            "name": "Земельный участок"
+        },
+        "cadastralNumber": "39:00:000000:31",
+        "conditionalNumber": null,
+        "typeCadastralNumber": "cadastralNumber",
+        "areaOfObject": null,
+        "objectAddress": {
+            "level1Key": {
+                "shortName": "д",
+                "fullName": "Дом"
+            },
+            "level2Key": {
+                "shortName": "к",
+                "fullName": "Корпус"
+            },
+            "level3Key": {
+                "shortName": "стр",
+                "fullName": "Строение"
+            },
+            "apartmentKey": {
+                "shortName": "кв",
+                "fullName": "Квартира"
+            },
+            "locationDescription": {
+                "label": null,
+                "value": null,
+                "okato": "27215803003",
+                "oktmo": null,
+                "kladr": "3900600003700",
+                "ancestors": {
+                    "district": {
+                        "shortname": "р-н",
+                        "formalname": "Зеленоградский"
+                    },
+                    "locality": {
+                        "shortname": "п",
+                        "formalname": "Подорожное"
+                    }
+                }
+            },
+            "index": null,
+            "level1Value": null,
+            "level2Value": null,
+            "level3Value": null,
+            "apartmentValue": null,
+            "otherData": null,
+            "note": null
+        },
+        "paymentCalcDetails": {},
+        "address": "Калининградская область, р-н Зеленоградский, п Подорожное",
+        "cadastralArea": 500,
+        "cadastralCost": 3000000,
+        "structuralAddress": {
+            "cadNum": "39:00:000000:31",
+            "object_code": "002001001000",
+            "object_desc": "Земельный участок",
+            "cadastralCost": 3000000,
+            "address": {
+                "kladr": "3900600003700",
+                "okato": "27215803003",
+                "region_value": "Калининградская область",
+                "district_value": "Зеленоградский",
+                "district_type": "р-н",
+                "city_value": null,
+                "city_type": null,
+                "locality_value": "Подорожное",
+                "locality_type": "п",
+                "soviet_village_value": null,
+                "soviet_village_type": null,
+                "urban_district_value": null,
+                "urban_district_type": null,
+                "street_value": null,
+                "street_type": null,
+                "level1_type": null,
+                "level1_value": null,
+                "level2_type": null,
+                "level2_value": null,
+                "level3_type": null,
+                "level3_value": null,
+                "apartment_type": null,
+                "apartment_value": null,
+                "full_name": "Калининградская область, р-н Зеленоградский, п Подорожное"
+            },
+            "cadastralArea": 500
+        }
+    }],
+    "declarant": {
+        "sex": "male",
+        "declarantKind": {
+            "uid": "357001000000",
+            "name": "Правообладатель или его законный представитель"
+        },
+        "declarantType": "1",
+        "documentType": {
+            "uid": "008001001000",
+            "parentUid": "008001000000",
+            "name": "Паспорт гражданина Российской Федерации"
+        },
+        "countryInformation": "Российская Федерация",
+        "surname": "Гусманов",
+        "name": "Ильшат",
+        "patronymic": "Хамисович",
+        "snils": "104-408-357 18",
+        "birthdate": "07.07.1986",
+        "documentSerie": "9205",
+        "documentNumber": "902019",
+        "documentIssuedBy": "УВД Советского района города Казани",
+        "documentIssueDate": "19.07.2006",
+        "phoneNumber": null,
+        "email": "gusmanov.work@yandex.ru",
+        "mail": {
+            "level1Key": {
+                "shortName": "д",
+                "fullName": "д"
+            },
+            "level2Key": {
+                "shortName": "к",
+                "fullName": "к"
+            },
+            "level3Key": {
+                "shortName": "стр",
+                "fullName": "стр"
+            },
+            "apartmentKey": {
+                "shortName": "кв",
+                "fullName": "кв"
+            },
+            "locationDescription": {
+                "label": "г. Москва ул. Лазо",
+                "value": "г. Москва ул. Лазо",
+                "okato": "45263583000",
+                "oktmo": "45312000",
+                "kladr": "770000000000409",
+                "ancestors": {
+                    "city": {
+                        "shortname": "г",
+                        "formalname": "Москва"
+                    },
+                    "street": {
+                        "shortname": "ул",
+                        "formalname": "Лазо"
+                    }
+                }
+            },
+            "index": null,
+            "level1Value": "1",
+            "level2Value": "1",
+            "level3Value": "1",
+            "apartmentValue": "1",
+            "otherData": null,
+            "note": null
+        },
+        "mailAddressType": "1",
+        "subjectType": "0",
+        "isRepresentative": false
+    },
+    "attachments": [],
+    "agreement": {
+        "dataProcessingAgreement": true,
+        "dataCorrect": true,
+        "interviewAgreement": false,
+        "interviewPhoneNumber": null
+    },
+    "paymentAmount": 25000,
+    "print": "<div><span style=\"font-weight: bold\">Цель обращения:</span> Предоставление копии документа, на основании которого сведения об объекте недвижимости внесены в Государственный кадастр недвижимости</div><!-- ngRepeat: (key, val) in Ctrl.steps --><div class=\"group ng-scope\" ng-repeat=\"(key, val) in Ctrl.steps\"><div class=\"group-title ng-binding\">Данные об объекте:</div><div class=\"group-content\"><!-- ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Вид:</span><span class=\"text ng-binding\">Земельный участок</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Кадастровый номер:</span><span class=\"text ng-binding\">39:00:000000:31</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Площадь:</span><span class=\"text ng-binding\">500</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Адрес (местоположение):</span><span class=\"text ng-binding\">Калининградская область, р-н Зеленоградский, п Подорожное</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --></div></div><!-- end ngRepeat: (key, val) in Ctrl.steps --><div class=\"group ng-scope\" ng-repeat=\"(key, val) in Ctrl.steps\"><div class=\"group-title ng-binding\">Данные о документе:</div><div class=\"group-content\"><!-- ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Тип запрашиваемого документа:</span><span class=\"text ng-binding\">Межевой план</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Номер:</span><span class=\"text ng-binding\">1</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Дата выдачи:</span><span class=\"text ng-binding\">01.10.2016</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --></div></div><!-- end ngRepeat: (key, val) in Ctrl.steps --><div class=\"group ng-scope\" ng-repeat=\"(key, val) in Ctrl.steps\"><div class=\"group-title ng-binding\">Сведения о заявителе:</div><div class=\"group-content\"><!-- ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Фамилия:</span><span class=\"text ng-binding\">Гусманов</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Имя:</span><span class=\"text ng-binding\">Ильшат</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Отчество:</span><span class=\"text ng-binding\">Хамисович</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Дата рождения:</span><span class=\"text ng-binding\">07.07.1986</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">СНИЛС:</span><span class=\"text ng-binding\">104-408-357 18</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Адрес:</span><span class=\"text ng-binding\">г. Москва ул. Лазо д. 1 к. 1 стр. 1 кв. 1</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">Email:</span><span class=\"text ng-binding\">gusmanov.work@yandex.ru</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --></div></div><!-- end ngRepeat: (key, val) in Ctrl.steps --><div class=\"group ng-scope\" ng-repeat=\"(key, val) in Ctrl.steps\"><div class=\"group-title ng-binding\">Способ предоставления сведений:</div><div class=\"group-content\"><!-- ngRepeat: (k, v) in val --><!-- ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><div class=\"input-block ng-scope\" ng-if=\"Ctrl.g(k) &amp;&amp; Ctrl.n(k, Ctrl.g(k))\" ng-repeat=\"(k, v) in val\"><span class=\"label ng-binding\">В виде ссылки на электронный документ по адресу электронной почты:</span><span class=\"text ng-binding\">gusmanov.work@yandex.ru</span></div><!-- end ngIf: Ctrl.g(k) && Ctrl.n(k, Ctrl.g(k)) --><!-- end ngRepeat: (k, v) in val --></div></div><!-- end ngRepeat: (key, val) in Ctrl.steps --><!-- ngIf: Ctrl.attachments && Ctrl.attachments.length --><div style=\"font-weight: bold\"></div><style>.group { display:block; margin-top:20px; margin-bottom:20px;} .group .group-title {font-weight: bold; margin-bottom:5px; } .group .input-block { display: table; width: 100%; max-width: 900px;} .group .input-block .label, .group .input-block .text { display: table-cell; text-align:left; padding-bottom: 5px;} .group .input-block .label { width:30%; padding-right: 20px;} .group .input-block .text { font-weight: bold;} .group .group-content .row { display: table; width: 100%; max-width: 900px;} .group .group-content .row .left-column, .group .group-content .row .right-column { display: table-cell; text-align:left; padding-bottom: 5px; } .group .group-content .row .left-column {  width:30%; padding-right: 20px;} .group .group-content .row .right-column { font-weight: bold;} .group .group-content table { width:100%; max-width: 900px;} .group .group-content table th, .group .group-content table td { text-align:left; padding-right:20px;}</style>",
+    "delivery": {
+        "email": "gusmanov.work@yandex.ru"
+    }
+}
